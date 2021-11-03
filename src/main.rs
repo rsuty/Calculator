@@ -7,9 +7,13 @@ fn read(input: &mut String) {
         .expect("Failed to read");
 }
 
-fn main() {
-    println!("Welcome to the nigga's calculator");
+fn welcome() {
+    println!("Welcome to Adal's calculator");
     println!("----------------");
+}
+
+fn main() {
+    welcome();
 
     let mut num1 = String::new();
     let mut num2 = String::new();
